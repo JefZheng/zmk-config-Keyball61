@@ -24,6 +24,7 @@
     quick-tap-ms = <150>;
 };
 
+
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -56,7 +57,7 @@
             bindings = <
 &trans     &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp DOLLAR    &kp PERCENT                    &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans     &kp LS(EXCL)     &kp LS(AT)   &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                  &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp LS(LPAR)          &kp LS(RPAR)           &trans
-&kp GRAVE  &kp LS(TILDE)    &kp BSLH     &kp LBKT       &kp RBKT      &kp MINUS                      &kp LS(UNDER)  &kp LS(LBRC)   &kp LS(RBRC)  &kp LS(PIPE)          &kp LS(PLUS)           &trans
+&kp GRAVE  &kp LS(TILDE)    &kp BSLH     &kp LBKT       &kp RBKT      &kp MINUS                      &kp LS(UNDER)  &kp LS(LBRC)   &kp LS(RBRC)  &kp LS(PIPE)          &kp LS(PLUS)           &kp EQUAL
 &trans     &trans           &trans       &trans         &trans        &trans         &trans  &trans  &trans         &trans         &trans        &trans                &trans                 &trans
 &trans     &trans           &trans       &trans         &trans        &trans         &trans  &trans  &mo 3                                                             &trans                 &trans
             >;
