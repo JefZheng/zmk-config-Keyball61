@@ -60,7 +60,7 @@ layers:
   - NUM
   - {t: '$$mdi:backspace$$', type: backspace}
   - Hyper+F
-  - $$mdi:backspace-reverse-outline$$
+  - FUN
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -246,7 +246,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:progress-download$$', type: held alternate}
   MOUSE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
